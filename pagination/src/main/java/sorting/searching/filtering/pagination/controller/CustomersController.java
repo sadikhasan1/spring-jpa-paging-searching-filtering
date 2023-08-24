@@ -11,12 +11,12 @@ import sorting.searching.filtering.pagination.model.Customers;
 import sorting.searching.filtering.pagination.service.CustomerService;
 
 @RestController
-public class ListingsController {
+public class CustomersController {
 
     @Autowired
     private CustomerService customerService;
 
-    @GetMapping("/listings/{pageNo}")
+    @GetMapping("/customers/{pageNo}")
     public Page<Customers> test(@PathVariable(name = "pageNo") int pageNo,
             @RequestParam(name = "sortField", defaultValue = "id") String sortField,
             @RequestParam(name = "sortDir", defaultValue = "asc") String sortDir,

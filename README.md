@@ -1,7 +1,3 @@
-# spring-jpa-paging-searching-filtering
-
-
-```markdown
 # Sorting, Searching, Filtering, and Pagination Example
 
 This project demonstrates how to implement sorting, searching, filtering, and pagination using Spring Boot and JPA.
